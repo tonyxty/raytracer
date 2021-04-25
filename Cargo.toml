@@ -1,0 +1,16 @@
+[package]
+name = "raytracer"
+version = "0.1.0"
+authors = ["Tony Beta Lambda <tonybetalambda@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+itertools = "*"
+lazycell = "*"
+nalgebra = "*"
+rand = { version = "*", features = ["small_rng"] }
+rand_distr = "*"
+crossbeam = "*"
+sdl2 = { version = "*", optional = true }
